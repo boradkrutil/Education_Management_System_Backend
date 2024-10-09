@@ -22,7 +22,7 @@ app.use('/api/grades', submissionRouter);
 
 
 app.get("/",(req,res) =>{
-    res.send("<center><h1>Education management System</h1> </br> <h2>If You Getting All infotmation about of this Project</h2><a href=  target=_blank>click Here</a></center>")
+    res.send("<center><h1>Education management System</h1> </br> <h2>If You Getting All infotmation about of this Project</h2><a href=https://github.com/boradkrutil/Education_Management_System_Backend  target=_blank>click Here</a></center>")
 })
 
 app.listen(PORT,()=>{
